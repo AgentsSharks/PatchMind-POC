@@ -1,0 +1,26 @@
+Issue #12
+
+Title: Student discount is not applied during checkout
+
+Labels:
+bug
+pricing
+
+Priority:
+Medium
+
+Description:
+
+When a student purchases one or more books,
+the checkout process charges the full amount.
+
+Expected Behavior:
+
+A 10% discount should be applied before the total
+price is returned.
+
+Acceptance Criteria
+
+- Student receives 10% discount.
+- Normal customer price remains unchanged.
+- Existing tests continue to pass.
